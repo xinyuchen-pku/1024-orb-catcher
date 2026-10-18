@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>本地识别资源自检</title><body><h1>本地识别资源自检</h1><p id="status">正在初始化本地 WASM 和模型（不访问摄像头）…</p><script type="module">
+import {FilesetResolver,HandLandmarker} from '/node_modules/@mediapipe/tasks-vision/vision_bundle.mjs';
+try {
+  const files = await FilesetResolver.forVisionTasks('/wasm');
+  const model = await HandLandmarker.createFromOptions(files,{baseOptions:{modelAssetPath:'/models/hand_landmarker.task',delegate:'GPU'},runningMode:'IMAGE',numHands:2});
+  const canvas = document.createElement('canvas'); canvas.width=640;canvas.height=480;canvas.getContext('2d').fillRect(0,0,640,480);
+  const result = model.detect(canvas); model.close();
+  document.getElementById('status').textContent = '通过：本地 WASM、GPU 初始化与模型推理正常，空白输入检测到 '+result.landmarks.length+' 只手。此检查不代替真人手势验收。';
+} catch(error) {document.getElementById('status').textContent='失败：'+String(error);}
+</script></body></html>
