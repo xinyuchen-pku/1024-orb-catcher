@@ -1,6 +1,6 @@
 {
-  "version": "v7-github-pages",
-  "date": "2026-10-18",
+  "version": "v9-official-event-name",
+  "date": "2026-10-20",
   "files": [
     {
       "path": ".github/workflows/deploy.yml",
@@ -34,13 +34,13 @@
     },
     {
       "path": "README.md",
-      "size": 4182,
-      "sha256": "1aaa977f028d0d48a42442d5cd596c52358d89d980dbdae2ff97e26f85ecca1a"
+      "size": 4211,
+      "sha256": "21f370a1ffc5436086a7bb745d23b26f0b8c063730581734b3d0c65324f57d0b"
     },
     {
       "path": "STATUS.md",
-      "size": 11325,
-      "sha256": "07a6ff44927c9461068eba7232ca348cd0e9cfbb98a89763ad3fa46455be5a94"
+      "size": 13788,
+      "sha256": "a7d2d57e2511516e4d4ea024116bcece489f8a2c7624d351f3b640659de7952a"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -53,14 +53,14 @@
       "sha256": "c341bfcd764216610d09e405101f9cf204da456f284ce48c13392c9a6abe873b"
     },
     {
-      "path": "dist/assets/index-COGdzukc.js",
+      "path": "dist/assets/index-BIqD6TZl.js",
       "size": 167279,
       "sha256": "5bb17ef86ca2708fcc4cb3e95813553010a9eddc7f3519aa4e023b16c78badd6"
     },
     {
-      "path": "dist/assets/index-DDcijmhl.css",
-      "size": 19925,
-      "sha256": "12f87bad29573f4ef3aa117da15466016c9f1d0d67ac78badfc68f6b747e6641"
+      "path": "dist/assets/index-CaZj9hcJ.css",
+      "size": 24224,
+      "sha256": "a487f39d69b5542d1cdf5abe69ebb48e9795f6f7820c38791832af6bc8702590"
     },
     {
       "path": "dist/favicon.svg",
@@ -69,8 +69,8 @@
     },
     {
       "path": "dist/index.html",
-      "size": 8548,
-      "sha256": "4e4c2d56b4f9a0c2d702f566b453fb839f97e5083a65d6040d9f8569fef498cd"
+      "size": 8083,
+      "sha256": "c44341f869a8b16a1781109d1cd91303eb236b9ffab4a429d8e0081f7a6d5431"
     },
     {
       "path": "dist/licenses/LICENSE",
@@ -124,8 +124,8 @@
     },
     {
       "path": "index.html",
-      "size": 8446,
-      "sha256": "60c055396ed64c2b5adceee4acb34a610aab464e9d8fa58a702652ac82a3792e"
+      "size": 7981,
+      "sha256": "9e61ed1fb32894b9deca4238d328cbfe7c4372ce7f210a27e988e2389c1052d4"
     },
     {
       "path": "package-lock.json",
@@ -164,8 +164,8 @@
     },
     {
       "path": "preview/rules.jpg",
-      "size": 87585,
-      "sha256": "07ba7170e33cfce755e2d1f6da1a4e2fb4482b4d427491fac8b9e407843122f7"
+      "size": 58818,
+      "sha256": "067935a10ee197d0e38cf5097f63b95a4643210df959a9af1df69b189d499827"
     },
     {
       "path": "public/favicon.svg",
@@ -284,8 +284,8 @@
     },
     {
       "path": "src/style.css",
-      "size": 19994,
-      "sha256": "c64fb2e1d1957c5360a76abdb006f03de4aa4031131327a31902916cb8baff14"
+      "size": 24436,
+      "sha256": "13c28bde01c91dda6416970d16fc56d1c3f7f5fe53866280624c4731d59e8b33"
     },
     {
       "path": "tests/flow.test.ts",

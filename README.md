@@ -1,6 +1,6 @@
-# 1024节小游戏：星球捕手
+# 1024程序员艺术节小游戏：星球捕手
 
-基于 [ihemu45/orb-catcher](https://github.com/ihemu45/orb-catcher)（MIT）制作的中文 1024 节版本。完整保留原作者许可证。本包包含可直接托管的 `dist/`、源代码、固定依赖清单、手部识别模型和 WASM 运行文件；游戏不依赖 CDN 或在线字体。
+基于 [ihemu45/orb-catcher](https://github.com/ihemu45/orb-catcher)（MIT）制作的中文 1024程序员艺术节版本。完整保留原作者许可证。本包包含可直接托管的 `dist/`、源代码、固定依赖清单、手部识别模型和 WASM 运行文件；游戏不依赖 CDN 或在线字体。
 
 ## 直接运行完整包
 
